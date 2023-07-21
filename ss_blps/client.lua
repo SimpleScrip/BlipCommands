@@ -1,4 +1,4 @@
-.ESX = exports["es_extended"]:getSharedObject()
+ESX = exports["es_extended"]:getSharedObject()
 
 RegisterNetEvent('esx:playerLoaded', function(xPlayer)
 	ESX.PlayerData = xPlayer
